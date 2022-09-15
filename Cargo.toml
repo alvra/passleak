@@ -16,7 +16,7 @@ bytes = "1.0"
 sha1 = "0.10.1"
 base16ct = "0.1.1"
 subtle = "2.4.1"
-reqwest = { version = "0.11.11", features = ["gzip", "brotli"] }
+reqwest = { version = "0.11.11", features = ["gzip", "brotli", "rustls-tls"], default-features = false }
 
 [dev-dependencies]
 tokio-test = "0.4.2"
